@@ -1,0 +1,26 @@
+
+net stop postgresql-x64-17
+
+net start postgresql-x64-17
+
+
+psql -U postgres -h localhost -p 5432
+
+
+ALTER USER postgres WITH PASSWORD 'new_password';
+
+
+
+    linux
+
+    sudo systemctl stop postgresql
+
+    sudo systemctl stop postgresql@17-main
+
+sudo systemctl list-units | grep postgresql
+
+
+psql -U postgres -h localhost -p 5432
+
+
+ALTER USER postgres WITH PASSWORD 'new_password';

@@ -1,0 +1,52 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+# If you collect static files
+/static/
+# If using gunicorn or other log files
+*.pid
+*.sock
+
+# VS Code settings
+# .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env
+
+
+# Pytest cache
+.pytest_cache/
+
+# Migrations (optional: include if you want to keep migrations versioned)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Node / frontend (if you have React/Vue)
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn-error.log
