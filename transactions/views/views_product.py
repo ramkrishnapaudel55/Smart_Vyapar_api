@@ -9,7 +9,6 @@ from core.authentication import CookieJWTAuthentication
 from globalparameters import globalparameters
 
 
-# Product Views
 class ProductCreateAPIView(APIView):
     authentication_classes = [CookieJWTAuthentication]
     permission_classes = [IsAuthenticated]

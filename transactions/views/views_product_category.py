@@ -8,7 +8,6 @@ from transactions.serializers.serializers_product_category import ProductCategor
 from core.authentication import CookieJWTAuthentication
 from globalparameters import globalparameters   
 
-# Product Category Views
 class ProductCategoryCreateAPIView(APIView):
     authentication_classes = [CookieJWTAuthentication]
     permission_classes = [IsAuthenticated]
