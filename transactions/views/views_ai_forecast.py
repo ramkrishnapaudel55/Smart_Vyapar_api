@@ -55,7 +55,7 @@ class AIForecastAPIView(APIView):
     def get(self, request):
         user = request.user
 
-        # Get last 6 months transactionss
+        # Get last 6 months transactionsss
         six_months_ago = now().date() - timedelta(days=180)
 
         qs = Transaction.objects.filter(
